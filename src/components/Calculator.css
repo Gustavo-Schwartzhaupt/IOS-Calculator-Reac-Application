@@ -1,0 +1,46 @@
+button {
+  width: 68px;
+  height: 68px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  border: none;
+  transition: transform 0.3s;
+  margin: 0.3em;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.box {
+  margin-top: 3em;
+}
+.orange {
+  background-color: #f69906;
+  color: white;
+}
+.gray {
+  background-color: #313131;
+  color: white;
+}
+
+.result {
+  color: white;
+  text-align: right;
+  margin-right: 1em;
+  padding-top: 2em;
+  font-size: 3em;
+}
